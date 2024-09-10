@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root{
+	--color-hover-menu:#FE8F01;
+	
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--fondo-gris: #F4F3F4;
+	--fondo-counter: #010101;
+	--fondo-card: #494949;
+	
+	--letra-footer: #bababa;
+	
+	--color-titulos:#000;
+	--color-naranja:#FE8F01;
+}
+
+body{
+	font-size: 14px;
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+
+}
+
+
+
+/* hero-slides-seccion indiana-benitez */
+#hero-slides h1{
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+#hero-slides p{
+	font-size: 16px;
+	font-weight: 200;
+}
+
+#hero-slides button.circle{
+	border-radius: 100%;
+	padding: 4px;
+	width: 3px;
+}
+/* Ing estuve peleando con los botones pero me salieron! */
+
+
+
+/* about-us-seccion indiana-benitez */
+#about {
+	background-color: var(--fondo-gris);
+	padding: 60px;
+}
+#about h2 {
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 40px;
+	font-weight: 400;
+}
+#about .tarjeta{
+	background-color: var(--fondo-header);
+	color: #fff;
+	padding: 30px 30px;
+	text-align: center;
+	border-radius: 0px;
+	margin-bottom: 30px;
+}
+#about .tarjeta h3{
+	font-weight: 700;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+#about .tarjeta p{
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--fondo-gris);
+}
+#about .tarjeta i{
+	font-size: 25px;
+	background-color: var(--color-naranja);
+	border: solid;
+	padding: 20px;
+	border-radius: 100%;
+	margin-bottom: 30px;
+}
+
+
+#about .tarjeta:hover{
+	background-color: var(--color-naranja);
+	color: var(--fondo-header);
+}
+#about .tarjeta:hover h3, 
+#about .tarjeta:hover p, 
+#about .tarjeta:hover i{
+	color: #fff;
+}
+
+
+
+
+/* counter-seccion indiana-benitez */
+#counter {
+	background-color: var(--fondo-counter);
+	color: #fff;
+	padding: 40px 60px;
+	text-align: center;
+}
+#counter i{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#counter i:hover{
+	color: var(--color-naranja);
+}
+#counter h4{
+	font-size: 30px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+#counter p{
+	color: var(--color-naranja);
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+
+footer .studentid{
+	color: var(--color-naranja);
+}
+
